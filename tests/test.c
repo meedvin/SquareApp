@@ -1,16 +1,6 @@
-#include <_stdio.h>
 #include <stdio.h>
-#include <string.h>
 #include <unity.h>
-
-#if defined(_WIN32)
-  #include <io.h>
-  #define dup   _dup
-  #define dup2  _dup2
-  #define fileno _fileno
-#else
-  #include <unistd.h>
-#endif
+#include <unistd.h>
 
 // FUNCTION PROTOTYPES
 extern int run_app(void);

@@ -6,29 +6,20 @@ An application that simply solves the square problem. The app comes with unit te
 - git
 - CMake
 - make
-- Your favorite C Compiler
+- Any C Compiler
 
 ## Build instructions
-### Linux/macOS:
 In the top folder:
 ```
 $ mkdir build && cd build
-$ cmake -DCMAKE_C_COMPILER=<Your C Compiler> ..
-$ make
-```
-
-### Windows:
-In the top folder:
-```
-$ mkdir build && cd build
-$ cmake -G "Unix Makefiles" -DCMAKE_C_COMPILER=<Your C Compiler> ..
+$ cmake -DCMAKE_C_COMPILER=<Your_C_Compiler> ..
 $ make
 ```
 
 ## Application Execution
 Inside the top/build folder:
 ```
-$ ./Square_App (.\Square_App.exe on Windows)
+$ ./Square_App
 ```
 
 To exit the app, input n=0.
